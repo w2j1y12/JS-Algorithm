@@ -1,21 +1,4 @@
-# BIG O
+# BIG O Notation
 > 컴퓨터 과학에서 알고리즘은 어떠한 문제를 해결하기 위한 방법이고, 어떠한 문제를 해결하기 위한 방법은 다양하기 때문에 방법 간에 효율성을 비교하기 위해 사용
 > 알고리즘의 효율성을 표기해주는 표기법
 
-###### Motivate the need for something like Big O Notation
-###### Describe what Big O Notation is
-###### Simpligy Big O Expressions
-###### Define "time complexity" and "space complexity"
-###### Evaluate the time complexity and space complexity of different algoruithms using Big O Notation
-###### Describe What a logarithm id
-
-###### Example
-- 1부터 특정한 N값 사이에 있는 모든 숫자들을 더하는 함수
-```
-function addUpTo(n) {
-  let total = 0;
-  for (let i = 1; i <= n; i++) {
-    total += 1;\
-   }
-}
-```
