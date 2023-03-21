@@ -7,3 +7,5 @@ function addUpTo(n) {
 }
 
 console.log(addUpTo(6))
+
+// n additions / n assignments
