@@ -3,3 +3,5 @@ function addUpTo(n) {
 }
 
 console.log(addUpTo(6))
+
+// 1 multiplication / 1 addition / 1 division
