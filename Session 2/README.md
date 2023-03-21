@@ -7,10 +7,10 @@ f(n) = n이라는 값이 입력되는 function / n = 출력
 -> f(n) = n
 -> 입력 = 실행 시간
 
-f(n) could be linear (f(n) = n)
-// 선형 : n과 실행 시간 비례
-f(n) could be quadratic (f(n) = n^2)
-// 이차 : n과 실행시간이 n^2하게 증가
-f(n) could be constant (f(n) = 1)
-// 상수 : 어떠한 n이라도 실행 시간에 영향을 끼치지 않음
+f(n) could be linear **(f(n) = n)**   
+// 선형 : n과 실행 시간 비례   
+f(n) could be quadratic **(f(n) = n^2)**   
+// 이차 : n과 실행시간이 n^2하게 증가   
+f(n) could be constant **(f(n) = 1)**   
+// 상수 : 어떠한 n이라도 실행 시간에 영향을 끼치지 않음   
 f(n) could be something entirely different!
