@@ -24,3 +24,4 @@ f(n) could be something entirely different!
 3. Accessing elements in an array (by index) or object (by key) is constant
 4. In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop
 
+![image](https://user-images.githubusercontent.com/62472117/226624456-2e82e42e-5bb7-48ca-a18c-eb5de427286b.png)
