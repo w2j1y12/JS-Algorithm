@@ -18,7 +18,7 @@ f(n) could be constant **(f(n) = 1)**
 
 f(n) could be something entirely different!
 
-##### Shorthands
+#### Shorthands
 1. Arithmetic operations are constant(+, -, /)
 2. Variable assignment is constant
 3. Accessing elements in an array (by index) or object (by key) is constant
