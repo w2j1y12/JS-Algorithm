@@ -160,4 +160,3 @@ function subtotals(array) {
   return subtotalArray;
 }
 ```
-
