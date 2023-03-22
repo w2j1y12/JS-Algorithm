@@ -26,7 +26,7 @@ f(n) could be something entirely different!
 
 ![image](https://user-images.githubusercontent.com/62472117/226624456-2e82e42e-5bb7-48ca-a18c-eb5de427286b.png)
 
-#### Quiz 1
+#### Quiz 1. 빅오 시간 복잡도 퀴즈
 
 ##### 다음 빅오 표현식을 간단히 해보세요
 ###### 1. O(n+10) -> O(n)
@@ -35,7 +35,7 @@ f(n) could be something entirely different!
 ###### 4. O(n^2 + n^3) -> O(n^3)
 ###### 5. O(n+n+n+n) -> O(n)
 
-#### Quiz 2
+#### Quiz 2. 빅오 시간 복잡도 퀴즈 2
 
 ##### 아래 함수에 대한 시간 복잡도를 구하세요.
 ###### 1. O(n)
@@ -96,3 +96,68 @@ function subtotals(array) {
   return subtotalArray;
 }
 ```
+
+
+#### Space Complexity
+1. Most Primitives (booleans, numbers, undefined, null) are constant space
+2. Strings require O(n) space (where n is the string length)
+3. Reference types are generally O(n), where n is the length (for array) or the number of keys (for objects)
+
+#### Quiz 3. 빅오 공간 복잡도 퀴즈
+
+##### 아래 함수에 대한  복잡도를 구하세요.
+###### 1. O(1)
+``` 
+function logUpTo(n) {
+  for (var i = 1; i <= n; i++) {
+    console.log(i);
+  }
+}
+```
+
+###### 2. O(1)
+```
+function logAtMost(n) {
+  for (var i = 0; i <= Math.min(n, 10); i++) {
+    console.log(i);
+  }
+}
+```
+
+###### 3. O(1)
+```
+function logAtMost10(n) {
+  for (var i = 0; i <= Math.min(n, 10); i++) {
+    console.log(i);
+  }
+}
+```
+
+###### 4. O(n)
+```
+function onlyElementAtEventIndex(array) {
+  var newArray = Array(Math.ceil(array.length / 2));
+  for (var o = 0; i < array.length; i++) {
+    if(i % 2 === 0) {
+      newArray[i / 2] = array[i];
+    }
+  }
+  return newArray;
+}
+```
+
+###### 5. O(n)
+```
+function subtotals(array) {
+  var subtotalArray = Array(array.length);
+  for (var i = 0; i < array.length; i++) {
+    var subtotal = 0;
+    for (var j = 0; j <= i; j++) {
+      subtotal += array[j];
+    }
+    subtotalArray[i] = subtotal;
+  }
+  return subtotalArray;
+}
+```
+
