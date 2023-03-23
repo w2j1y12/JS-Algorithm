@@ -3,6 +3,9 @@
 #### Object
 -  When you don't need order
 -  When you need fast access / insertion and removal
+-   Insert - O(1)
+
+
   - Insertion - O(1)
   - Removal - O(1)
   - Searching - O(N)
