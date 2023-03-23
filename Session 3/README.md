@@ -1,9 +1,6 @@
 # 배열과 오브젝트의 성능 평가
 
 #### Object
--  When you don't need order
--  When you need fast access / insertion and removal
-
 - When you don't need order
 - When you nedd fast access / insertion and removal
   - Insertion - O(1)
