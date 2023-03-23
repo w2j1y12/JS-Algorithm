@@ -3,13 +3,14 @@
 #### Object
 -  When you don't need order
 -  When you need fast access / insertion and removal
--   Insert - O(1)
 
-
+- When you don't need order
+- When you nedd fast access / insertion and removal
   - Insertion - O(1)
   - Removal - O(1)
   - Searching - O(N)
   - Access - O(1)
+
 
 #### Big O of Object Methods
 - Object.keys - O(n)
