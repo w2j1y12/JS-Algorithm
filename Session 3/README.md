@@ -5,8 +5,8 @@
 -  When you need fast access / insertion and removal
   - Insertion - O(1)
   - Removal - O(1)
-  - Searching - O(n)
-  - Access - o(1)
+  - Searching - O(N)
+  - Access - O(1)
 
 #### Big O of Object Methods
 - Object.keys - O(n)
