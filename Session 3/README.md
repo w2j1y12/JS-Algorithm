@@ -39,3 +39,9 @@ Big O of Array Operations
 - splice - O(N) element를 제거하고 추가함 
 - sort - O(N*logN)
 - forEach / map / filter / reduce / etc. - O(N)
+
+#### Quiz 5. 배열 연산 퀴즈
+
+##### 1. 배열 안에 데이터를 삽입하는 빅오는 무엇일까요? - O(1)
+##### 2. 배열 안에 데이터를 이동하는 빅오는 무엇일까요? -O(N)
+##### 3. forEach 함수를 위한 빅오는 무엇일까요? -O(N)
