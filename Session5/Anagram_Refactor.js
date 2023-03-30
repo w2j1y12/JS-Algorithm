@@ -8,6 +8,7 @@ function validAnagram(first, second) {
         let letter = first[i];
         //if letter exists, increment, otherwise set to 1
         lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
+        // A ? B : C -> A가 참이면 B를 retur, 거짓이면 C를 return
     }
 
     for(let i = 1; i <second.length; i++) {
