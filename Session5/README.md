@@ -14,7 +14,12 @@
 - Very efficient for solving problems with minimal space complexity as well
   - 여러 값과 데이터가 서로 유사한 값으로 구성되어 있는가
 
-4. Sliding Window
+3. Sliding Window
+- the pattern involves creating a window which can either be an array or number from one position to another
+- Depending on a certain condition, the window either increases or close (and a new window is created)
+- Very useful for keeping track of a subset of data in an array/string etc.
+  - 
+
 5. Divide and Conquer
 6. Dynamic Programming
 7. Greedy Algorithms
