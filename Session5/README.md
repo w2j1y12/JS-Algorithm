@@ -18,7 +18,11 @@
 - Depending on a certain condition, the window either increases or close (and a new window is created)
 - Very useful for keeping track of a subset of data in an array/string etc.
 
-5. Divide and Conquer
-6. Dynamic Programming
-7. Greedy Algorithms
-8.Backtracking
+4. Divide and Conquer
+- This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data
+- This pattern can tremendously decrease time complexity
+
+
+7. Dynamic Programming
+8. Greedy Algorithms
+9.Backtracking
