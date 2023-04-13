@@ -5,7 +5,6 @@
 - Base Case
   - The condition when the recursion ends.
 
-
 #### Quiz 1. 재귀 퀴즈
 
 ##### 1. 자바스크립트는 함수를 호출하기 위해 어떤 도구를 쓸까요?
@@ -13,3 +12,7 @@
 
 ##### 2. 기본 케이스는 무엇인가요?
 ###### 재귀가 끝난 상태
+
+- Where things go wrong
+  - No base case
+  - Forgetting to return or returning the wrong thing!
