@@ -19,12 +19,16 @@
   - Stack overflow
 
 ``` 
+// Uncaught RangeError : Maximum call stack size exceeded
+
 functipn factorial (num) {
   if(num === 1) return 1;
   return num * factorial(num);
 }
 ```
 ```
+// Uncaught RangeError : Maximum call stack size exceeded
+
 function factorial (num) {
   if(num === 1) console.log(1);
   return num * factorial(num-1);
