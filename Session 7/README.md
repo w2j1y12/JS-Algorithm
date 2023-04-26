@@ -37,7 +37,8 @@ function factorial (num) {
 
 #### Pure Recursion Tips
 - For arrays, use methods like slice, the spread operator, and concat that make copies of arrays so you do not mutate them
-  - 배열이나 헬퍼 메소드 없이 순수 재귀 솔루션을 작성하는 경우에 메소드(slice, spread, concat...)를 사용할 수 있음 -> 배열을 변경할 필요 X, 일종의 결과를 축적할 수 있음
+  - 배열이나 헬퍼 메소드 없이 순수 재귀 솔루션을 작성하는 경우에 메소드(slice, spread, concat...)를 사용할 수 있음
+  - 따라서 배열을 변경할 필요 X, 일종의 결과를 축적할 수 있음
 - Remember that strings are immutable so you will need to use methods like slice, substr, or substring to make copies of strings
 - To make copies of object use Object.assign, or the spread operator
 
