@@ -1,0 +1,3 @@
+/*
+Write a recursive function called flatten which accpets an array of arrays and returns a new array with all values flattened.
+*/
