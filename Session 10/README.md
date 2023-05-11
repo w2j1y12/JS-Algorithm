@@ -16,8 +16,6 @@ Given an array, the simplest way to search for an value is to look at every elem
   - includes
   - find
   - findIndex
-- Linear Search Pseudocode
-  - This function accpets an array and a value
-  - Loop through the array and check if the current array element is equal to the value
-  - If it is, return the index at which the element is found
-  - If the value is never found, return -1
+
+
+
