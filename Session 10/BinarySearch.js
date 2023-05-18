@@ -24,20 +24,20 @@ function binarySearch(arr,val){
   // add whatever parameters you deem necessary - good luck!
   let left = 0;
   let right = arr.length - 1;
+  let mid = Math.floor((left + right) / 2);
   
-  while(left<right) {
+  while(left < right && val !== arr[mid]) {
       
-      let mid = (left + right) / 2;
-      
-      if(arr[mid] > val) {
-          right = mid - 1
-      }
-      else if(arr[mid] < val) {
-          left = mid + 1
-      }
-      else return mid
+      if(arr[mid] > val) right = mid - 1;
+      else left = mid + 1;
+      mid = Math.floor((left + right) / 2);
   }
+  return arr[mid] === val ? mid : -1;
+  
+  /*
+  if(arr[mid] === val) return mid;
   return -1
+  */
 }
 
 binarySearch([1,2,3,4,5],2)
