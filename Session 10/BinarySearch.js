@@ -19,3 +19,31 @@ Binary Search Pseudocode
   + If the value is too large, move the right pointer down
 - If you never find the value, return -1
 */
+
+function binarySearch(arr,val){
+  // add whatever parameters you deem necessary - good luck!
+  let left = 0;
+  let right = arr.length - 1;
+  
+  while(left<right) {
+      
+      let mid = (left + right) / 2;
+      
+      if(arr[mid] > val) {
+          right = mid - 1
+      }
+      else if(arr[mid] < val) {
+          left = mid + 1
+      }
+      else return mid
+  }
+  return -1
+}
+
+binarySearch([1,2,3,4,5],2)
+binarySearch([1,2,3,4,5],3)
+binarySearch([1,2,3,4,5],5)
+binarySearch([1,2,3,4,5],6)
+binarySearch([5,6,10,13,14,18,30,34,35,37,40,44,64,79,84,86,95,96,98,99],10)
+binarySearch([5,6,10,13,14,18,30,34,35,37,40,44,64,79,84,86,95,96,98,99],95)
+binarySearch([5,6,10,13,14,18,30,34,35,37,40,44,64,79,84,86,95,96,98,99],100)
