@@ -10,7 +10,7 @@ https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/
 /*
 Binary Search Pseudocode
 
-- This function accpets a sorterd array and a value
+- This function accpets a sorted array and a value
 - Create a left pointer at the start of the array, and a right pointer at the end of the array
 - While the left pointer comes before the right pointer 
   + Create a pointer in the middle
